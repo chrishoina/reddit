@@ -24,6 +24,7 @@ my_list = []
 file = open("./countries.txt", "r")
 countries = file.read()
 
+countries 
 # I need to remove the "new line" identifiers; so I'm doing that here. 
 my_list = countries.split('\n')
 
